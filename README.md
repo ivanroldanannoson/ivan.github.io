@@ -1,52 +1,23 @@
-# Grape-Academic-Theme
+# Grape-Theme
 
-<a href="https://jekyll-themes.com">
-    <img src="https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg" height="20" alt="Jekyll Themes Shield" loading="lazy">
-</a>
+![home](./assets/img/home.png)
 
----
+블로그뿐만 아니라 포트폴리오 페이지도 지원하는 Grape-Theme를 자유롭게 사용하세요.
 
-![home](https://chrjabs.github.io/Grape-Academic-Theme/assets/img/portfolio.png)
+Welcome to Grape Theme!  It is good for a portfolio as well as a blog.
+<br>
+Customize Grape-Theme and use it for free.
 
-Welcome to Grape Academic Theme!
-This theme is based on [Grape Theme](https://github.com/naye0ng/Grape-Theme) and modifies it to be more directly applicable as an academic portfolio page.
-It can still include a blog, but that is optional.
+[Demo](https://grape-theme.netlify.com)
 
-[Demo](https://chrjabs.github.io/Grape-Academic-Theme)
 
-## Features
 
-Some of these features are optional and can be turned on or off in the `_config.yml` file.
+## Installation
 
-### [Portfolio Homepage](https://chrjabs.github.io/Grape-Academic-Theme)
-
-Portfolio page giving an overview of your research.
-
-### [Publications List](https://chrjabs.github.io/Grape-Academic-Theme/publications)
-
-A optional list of your publications auto-generated from a BibTeX file.
-Additional information can be linked to from the BibTeX file.
-
-### [Presentations List](https://chrjabs.github.io/Grape-Academic-Theme/presentations)
-
-A optional list of your presentations auto-generated for a data file.
-
-### [Blog](https://chrjabs.github.io/Grape-Academic-Theme/blog)
-
-An optional blog for any posts you want to publish.
-
-### [Hub Pages](https://chrjabs.github.io/Grape-Academic-Theme/example-hub)
-
-Hub pages are intended for easy linking in your presentations.
-They collect links and additional information related to your presentation so that you only have to put one link on your slides.
-They can be manually generated or automatically from one of your publication entries.
-
-## Installation and Serving Local Version for Testing
-
-1. Fork and clone the Grape Academic Theme repo
+1. Fork and clone the Grape Theme repo
 
    ```
-   git clone https://github.com/chrjabs/Grape-Academic-Theme.git
+   git clone https://github.com/naye0ng/Grape-Theme.git
    ```
 
 2. Install Jekyll 
@@ -61,7 +32,7 @@ They can be manually generated or automatically from one of your publication ent
    bundle install
    ```
 
-4. Update `_config.yml`, `_data/projects.yml`, `_data/projects.yml` and `_bibliography/publications.bib` with your own settings.
+4. Update `_config.yml` and `projects.yml` with your own settings.
 
 5. Run the Jekyll server
 
@@ -69,90 +40,59 @@ They can be manually generated or automatically from one of your publication ent
    bundle exec jekyll serve
    ```
 
-## Publishing
-
-Grape-Academic-Theme uses jekyll-scholar and therefore needs to manually be published to GitHub pages.
-A script for publishing on a `gh-pages` branch is included.
-Run `_scripts/publish.sh` from the main project directory and the page will be built, copied to the `gh-pages` branch and published.
-Make sure that GitHub pages is set up to publish that branch.
-If additional scripts should be executed in the HTML root, they can be placed in `_scripts/publish.d` and will be automatically executed.
-
-These are step-by-step instructions for forking and publishing the theme at your `<username>.github.io` github pages website:
-
-1. For the repository to a repository named `<username>/<username>.github.io`
-2. Go to the settings of the new repository and navigate to the "Pages" tab.
-  There, change the source for github pages to the `gh-pages` branch of the repository.
-3. Clone the repository and go through the installation steps listed above
-4. In `_config.yml`, change the `baseurl` option to an empty string (`""`) to host the webpage in the root of your `github.io` page
-5. Commit the change and (with a working jekyll install) run `_scripts/publish.sh`
-6. _Wait a couple of minutes_ and the demo content will show up at `<username>.github.io`
+   
 
 ## Customizing
 
-Grape-Theme has two great features: the profile section and the project section of the portfolio page. Just by changing `_config.yml` and `projects.yml`, you can use all of these features.
+Grape-Theme에서는 자랑할 만한 두 가지 기능을 제공합니다. 홈 화면의 프로필 섹션과 포트폴리오 페이지의 프로젝트, 상세 프로필 기능이 그것 입니다. 이 모든 기능들은  `_config.yml` 와 `projects.yml` 파일을 수정하는 것만으로도 충분합니다.
 
-### Feature Settings
+Grape-Theme has two great features: the profile section and the project section of the portfolio page. Just by changing  `_config.yml` and `projects.yml` , you can use all of these features.
 
-The blog, publications, and presentations pages are optional and can be turned on or off in the config file.
 
-### Favicon
 
-Generate your favicons with [realfavicongenerator.net](https://realfavicongenerator.net/) and place them in the root directory.
-The code to include them is already set up in the template.
+### Blog Settings
 
-### Site configuration
+기본적인 블로그 설정은 `config.yml` 에서 가능합니다.
+
+The blog configuration is available in `config.yml`.
+
+#### Site configuration
 
 ```
 baseurl: "{subpath}"
+url : "https://{username}.github.io"
 
 theme_settings :
-  title: {blog title}
+  title : {blog title}
 ```
 
-### Profile Settings
+
+
+#### Profile Settings
+
+간단한 프로필 정보는 홈 화면에서 출력되며, experience 및 skills 부분은 포트폴리오 페이지에서 함께 보여집니다.
 
 Profile is displayed on the index page, and also experience and skills are displayed on the portfolio page.
-The profile is configured in `_data/profile.yml`.
 
 ```
-image: assets/img/smile.png
-username: Christoph Jabs
-description: creator of the Grape-Academic-Theme! Grape-Academic-Theme is a modification of the Grape-Theme by naye0ng, making it more suitable as an academic portfolio.
-webpage: https://chrjabs.github.io
-experience:
-  - start: 2017-05-03
-    end: 2018-05-06
-    experience : company name, title
-interests:
-  - Interest 1
-  - Interest 2
-skills: 
-  - skill: HTML5 & CSS
-    value: 85  # Percent value
+profile :
+  image : assets/img/{prorile image}
+    username : {username}
+    description : 
+    experience :
+      - start :
+        end : 
+        experience : {company name}, {title}
+     skills : 
+      - skill : 
+        value : 85  # Percent value
 ```
 
-### Presentations
 
-The data for the presentations page can be defined in `data/presentations.yml`.
 
-```
-- presentation:
-    title: A nice presentation
-    event: Fancy conference
-    date: 05/2022
-    comment: This is some comment text that can do _Markdown_
-    slides: https://www.google.com # potential link to slides
-- presentation:
-    title: A second presentation
-    event: Another conference
-    date: 03/2022
-```
+#### Pagination
 
-### Hub Pages
-
-For an example on how to configure a hub page, see the `example-hub.md` file.
-
-### Pagination
+한 페이지에서 보여질 포스팅 개수를 정의합니다.
 
 Defines the number of posts to be shown on one page.
 
@@ -160,62 +100,94 @@ Defines the number of posts to be shown on one page.
 paginate: 5
 ```
 
+
+
+#### Disqus
+
+[Disqus shortname](https://help.disqus.com/en/articles/1717111-what-s-a-shortname)을 설정하고, 포스팅 속성에 `comments : true` 를 추가하면 블로그 글에서 댓글을 사용할 수 있습니다.
+
+you can use the comments by following [document](https://help.disqus.com/en/articles/1717111-what-s-a-shortname) and adding a `comments : true` 
+
+``` 
+disqus_shortname :
+```
+
+
+
 ### Portfolio Settings
 
-![home](https://chrjabs.github.io/Grape-Academic-Theme/assets/img/portfolio.png)
+![home](./assets/img/portfolio.png)
+
+프로젝트 세팅은 `_data/projects.yml`에서 가능합니다.
 
 The Project configuration is available in `_data/projects.yml`.
 
-The portfolio page provides projects and detailed views by modal.
-If `modal : False` is selected, modal will not be displayed on site. 
+포트폴리오 페이지에서는 프로젝트 목록과 상세보기를 모달로 지원합니다. 물론 상세보기는 선택적이며, 상세값이 `modal : False`인 경우 모달 버튼은 생성되지 않습니다.
+
+The portfolio page provides projects and detailed views by modal.   If `modal : False` is selected, modal will not be displayed on site. 
 
 - **print** : 
   
-  - If `print: True` is selected, it will be displayed on landing page
+  -  `print : True` 를 선택한다면, 블로그의 홈 화면에서도 프로젝트의 정보가 출력됩니다.
+  - If `print : True` is selected, it will be displayed on landing page
+  
+   ![print project](./assets/img/print-project.png)
   
 - **modal** 
+  - `modal : True` 를 선택한다면 모달 버튼이 활성와 됩니다.
   
-  - If `modal: True` is selected, modal will be displayed on the Portfolio page
+  - If `modal : True` is selected, modal will be displayed on the Portfolio page
   
-    ![home](https://chrjabs.github.io/Grape-Academic-Theme/assets/img/modal.png)
+    ![home](./assets/img/modal.png)
 
 ```
-print: True
-modal: True  
+print : True
+modal : True  
 ```
+당신의 프로젝트에 대한 링크와 상세 설명을 아래와 같이 추가하세요.
 
 Add details(link, description) about your projects
 
 ```
-url: https://github.com/naye0ng/Grape-Theme # Full URL
-image: "portfolio.png" # path: assets/project/
-date: 2019.06.09 - 2019.07.11
-title: 
-summary: 
-description:  
+url : https://github.com/naye0ng/Grape-Theme # Full URL
+image : "portfolio.png" # path: assets/project/
+date : 2019.06.09 - 2019.07.11
+title : 
+summary : 
+description :  
 # modal contents
-contents:
-  - title:
-    image:      	    
-    description: 
+contents :
+  - title :
+    image :      	    
+    description : 
 ```
+
+
 
 ### Colors
 
+블로그의 컬러들은 `_sass/base/_variable.scss` 에서 한번에 변경이 가능합니다.
+
 You can change colors at once. colors are in `_sass/base/_variable.scss`
 
+
+
 ## Posts in Grape theme
+
+이 블로그의 모든 포스팅 스타일은  `_sass/base/_utility.scss` 에 정의되어 있으며 [Demo page](https://grape-theme.netlify.com/2019/06/08/markdown-and-html.html)와 [Demo page](https://grape-theme.netlify.com/2019/06/09/grape-theme-style.html)에서 여러 태그들의 출력을 확인할 수 있습니다.
 
 You can confirm how to draw tags at [here](https://grape-theme.netlify.com/2019/06/08/markdown-and-html.html) and [here](https://grape-theme.netlify.com/2019/06/09/grape-theme-style.html)
 
 ### Create a new post
 
 1. Create a `.md` inside `_posts` folder
+
    ```
    2019-07-11-grape-theme.md
    ```
-
+   > 한글로 파일 이름을 만드는 경우, 구글 검색을 붙였을때 문제가 발생합니다. 되로록 영어를 사용해주세요:D
 2. Write the [Front Matter](https://jekyllrb.com/docs/front-matter/) and content in the file.
+
    ```
    ---
    layout: post
@@ -227,6 +199,9 @@ You can confirm how to draw tags at [here](https://grape-theme.netlify.com/2019/
    ---
    ```
 
-## Licence
 
-The theme is available as open source under the terms of the [MIT Licence](https://opensource.org/licenses/MIT).
+
+## License
+
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
