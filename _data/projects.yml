@@ -30,7 +30,7 @@
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url :  https://play.google.com/store/apps/details?id=com.ineight.document# Full URL
+    url :  https://play.google.com/store/apps/details?id=com.ineight.document Full URL
     image : # path: assets/project/
     date : #2019.06.09 - Developing
     title : InEight Document
@@ -48,17 +48,6 @@
     summary : TeamBinder is a web-based information management system that helps you manage all your project documents, mail document processing and approval processes via a single repository of information saved on the internet
     description :  <li>Worked on enhancing features</li><li>Bug fixes in existing version</li> <li>Enhanced app performance, code review and Security enhancement.</li>
     skills : Java
-
-- project :
-    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url :  # Full URL
-    image : koreaSunset.jpg # path: assets/project/
-    date : 2019.06.09 - 222
-    title : Ivan project
-    summary : This is Dummy
-    description :  
-
 
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
@@ -93,11 +82,10 @@
     description : <li>A video calling app which users WebRTC client for connection.</li><li>Implemented Google In-App Purchase</li><li>Given support to setup and maintain Azure server to implement Socket.IO connections</li><li>Publishing and maintain updates in Play Store</li>
     skills : Firebase Phone Auth, Socket IO, Java, WebRTC, Firebase Cloud Messaging, Crashlytics
 
-
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url :  https://play.google.com/store/apps/details?id=com.codematrix.sns.Talk # Full URL
+    url :  # Full URL
     image : #koreaSunset.jpg # path: assets/project/
     date : #2019.06.09 - 444
     title : MediReps
@@ -105,6 +93,86 @@
     description : <li>Medical drug sale POS system which can manage items, stock, customers, generate invoice</li><li>Print receipt with Bluetooth printer.</li><li>Implemented Native Android application with Java</li><li>PHP CodeIgniter web services implementation</li>
     skills : Java, PHP
 
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url :  https://play.google.com/store/apps/details?id=com.cybrart.a5wasara # Full URL
+    image : #koreaSunset.jpg # path: assets/project/
+    date : #2019.06.09 - 444
+    title : 5wasara
+    summary : Sri Lanka primary school MCQ applicaiton
+    description : <li>Educational app which brings question papers to help 5th grade students. The app uses Firebase technology the user can use the app in offline mode.</li><li>The app is dynamically updated with Firebase Database.</li><li>Grades, Subject, Question, Answers can be modified real-time with Firebase database</li>
+    skills : Java, Firebase Database
+
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url : https://play.google.com/store/apps/details?id=com.ivan.travelyn # Full URL
+    image : #koreaSunset.jpg # path: assets/project/
+    date : #2019.06.09 - 444
+    title : Travelyns
+    summary : This app will provide you the with ease of searching for travel destinations on the popularity. Search your destination, know where your traveling to with some knowledge on history.
+    description : <li>Developed android application for location nearby places</li><li>Implemented Exchange rates, weather with third party API</li><li>Implemented AWS EC2 instance to host web services and dashboard</li>
+    skills : Java, Firebase Cloud Messaging, PHP rest API, Retrofit
+
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url : https://play.google.com/store/apps/details?id=lk.pcguide.android # Full URL
+    image : #koreaSunset.jpg # path: assets/project/
+    date : #2019.06.09 - 444
+    title : PC Guide
+    summary : pcguidelk App provides you the latest tech news helping you stay up to date! pcguidelk App Also provides you a central location to get Best deals and Offers in Computers and Accessories, Promote your products as a shop, and also a Trusted place to Buy and Sell Used Computers, Laptops, Components Smart Phones with its own market place
+    description : <li>Tech news fetched from www.pcguide.lk WordPress website</li><li>Implemented Classified and shop</li>
+    skills : Java, PHP rest API, Retrofit, Wordpress, Crashlytics
+
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url : https://www.linkedin.com/pulse/public-transport-mobile-workforce-goaheadsingapore/ # Full URL
+    image : #koreaSunset.jpg # path: assets/project/
+    date : #2019.06.09 - 444
+    title : BC Click
+    summary : Leading local public transportation company Go-Ahead Singapore was searching for solutions to speed up its digital transition and increase productivity. The business opted to automate these operations by creating a specialised mobile application to meet its specific requirements after seeing the necessity to replace the antiquated paper-based procedures.
+    description : <li>Modified E-Leave module as per the requirements such as applying leave, view applied leave,available leave balances, leave types</li><li>Bugs & change requests in E-Leave Module</li>
+    skills : Kotlin, Java
+
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url : # Full URL
+    image : #koreaSunset.jpg # path: assets/project/
+    date : #2019.06.09 - 444
+    title : Hubba Flow
+    summary : Workforce application for engineers and technicans
+    description : <li>Task management application with sub tasks update, assigning the next task to relevant person, uploading images for the task</li><li>Implementing push notification using firebase</li>
+    skills : Flutter, Firebase, Firestore
+
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url : # Full URL
+    image : #koreaSunset.jpg # path: assets/project/
+    date : #2019.06.09 - 444
+    title : Kiosk for restaurant
+    summary : Resturant KIOSK app for self ordering with kitchen display and cashier queue management
+    description : <li>Kiosk self-ordering for restaurant with choosing food, variant, add-one, card payment, receipt printing with QR code receipt in the concept of Go Green.</li><li>Implementing queue system with Socket.IO for status changing of the food preparation</li>
+    skills : Flutter, Socket.IO
+
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url : # Full URL
+    image : #koreaSunset.jpg # path: assets/project/
+    date : #2019.06.09 - 444
+    title : Green Tech
+    summary : 
+    description : <li>CCTV camera dashboard supporting multiple cameras, grid view, pagination, different grid sizes to support multiple cameras to view in same screen</li>
+                  <li>Advance filter</li>
+                  <li>CCTV recording preview with timeline</li>
+                  <li>Change password, Forgot password with email</li>
+                  
+    skills : Flutter WEB
 
 
     
