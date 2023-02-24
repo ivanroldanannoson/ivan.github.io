@@ -16,10 +16,19 @@ theme_settings :
       - start : 2017-05-03
         end : 2018-05-06
         experience : company name, title
+      - start : 2017-05-03
+        end : 2018-05-06
+        experience : company name, title
     skills : 
       - skill : HTML5 & CSS
         value : 85  # Percent value
+      - skill : HTML5 & CSS
+        value : 85  # Percent value
     education :
+      - degree : BSC
+        college : ICBT
+      - degree : BSC
+        college : ICBT
       - degree : BSC
         college : ICBT
     
