@@ -11,6 +11,8 @@ theme_settings :
   profile :
     image : assets/img/smile.png
     username : Ivan Roldan Annoson
+    designation : Software Engineer
+    languages : Flutter, Kotlin, Java, PHP
     description : I am experienced Android Engineer with 5+ years working with Java & Kotlin with latest technology stack. Along with that I have worked on PHP, AWS, Azure and contributed my best on implementing features on project with Research.
     experience :
       - start : 2022-Jun
