@@ -108,6 +108,10 @@
     summary : Project with several modules related to IOT
     description : <li>CCTV camera dashboard supporting multiple cameras, grid view, pagination, different grid sizes to support multiple cameras to view in same screen</li>
                   <li>Advance filter</li>
+                  <ul>
+                    <li>Rearrange cameras</li>
+                    <li>Search by name, status, vendor, location</li>
+                  </ul>
                   <li>CCTV recording preview with timeline</li>
                   <li>Change password, Forgot password with email</li>
                   
