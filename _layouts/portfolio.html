@@ -32,6 +32,13 @@ layout: page
         <li class="meta">
           <p class="date">{{ exp.start }} ~ {{ exp.end }}</p>
           <p class="description">{{ exp.experience }}</p>
+          <ul class="exper-list">
+            {% for response in  profile.experience.responsibilites %}
+            <li class="meta">
+              <p class="description">{{ response }}</p>
+            </li>
+            {% endfor %}
+          </ul>
         </li>
         {% endfor %}
       </ul>
