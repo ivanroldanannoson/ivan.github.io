@@ -10,27 +10,36 @@ theme_settings :
   # Profile Settings
   profile :
     image : assets/img/smile.png
-    username : Ivan Roldan
+    username : Ivan Roldan Annoson
     description : I am experienced Android Engineer with 5+ years working with Java & Kotlin with latest technology stack. Along with that I have worked on PHP, AWS, Azure and contributed my best on implementing features on project with Research.
     experience :
-      - start : 2017-05-03
-        end : 2018-05-06
-        experience : company name, title
-      - start : 2017-05-03
-        end : 2018-05-06
-        experience : company name, title
+      - start : 2022-Jun
+        end : Present
+        experience : Starhub Ltd. Singapore, Software Engineer
+      - start : 2020-Jan
+        end : 2022-May
+        experience : InEight Sri Lanka, Software Engineer
+      - start : 2019-Aug
+        end : 2020-Jan
+        experience : Auxenta (PVT) Ltd., Software Engineer
+      - start : 2017-Sep
+        end : 2019-Jul
+        experience : Capital Trust Securities (Acquired Airport Travels Holdings (Pvt) Ltd.), Software Engineer
+      - start : 2017-Apr
+        end : 2017-Aug
+        experience : Airport Travels Holdings (Pvt) Ltd, Associate Software Engineer
     skills : 
       - skill : HTML5 & CSS
         value : 85  # Percent value
       - skill : HTML5 & CSS
         value : 85  # Percent value
     education :
-      - degree : BSC
-        college : ICBT
-      - degree : BSC
-        college : ICBT
-      - degree : BSC
-        college : ICBT
+      - degree : Master of Science in Information Technology
+        college : Cardiff Metropolitan University
+      - degree : BSc (Hons) Software Engineering (First class)
+        college : Cardiff Metropolitan University
+      - degree : HND in Software Engineering and Computing
+        college : ICBT Sri Lanka
     
         
   # Icons
