@@ -37,7 +37,7 @@
     summary : InEight's document management software features an intuitive search interface, spanning all the project information to connect the entire team.
     description :  <li>Implementing modules for the application according to the business reequipments with Kotlin </li><li>Write maintainable code with team collaboration</li><li>Offline mode support with SQLite database with sync feature when network is available</li><li>Foxit PDF SDK modification as per the business requirement</li><li>Research and implementation of encrypt/ decrypt of Foxit SDK key for support Android/iOS</li><li>Developer testing after implementing module</li><li>Writing test cases for Business requirement</li>
     skills : MVVM, Material Design, Kotlin, Navigation graph
-    
+
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
@@ -47,7 +47,7 @@
     title : TeamBinder Mobile
     summary : TeamBinder is a web-based information management system that helps you manage all your project documents, mail document processing and approval processes via a single repository of information saved on the internet
     description :  <li>Worked on enhancing features</li><li>Bug fixes in existing version</li> <li>Enhanced app performance, code review and Security enhancement.</li>
-
+    skills : Java
 
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
@@ -64,19 +64,47 @@
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url :  # Full URL
-    image : koreaSunset.jpg # path: assets/project/
-    date : 2019.06.09 - 3333
-    title : Ivan project
-    summary : This is Dummy
-    description :  
-
+    image : #koreaSunset.jpg # path: assets/project/
+    date : #2019.06.09 - 3333
+    title : Taxiya
+    summary : Taxi hailing passenger app which a passenger may request a ride using android device. The real-time database update used is firebase
+    description :  <li>Implementing ride booking feature</li><li>Firebase real time database used to show drivers real time location</li><li>Real time peer to peer connection with driver status using Socket.IO</li><li>Route draw on Google maps from passenger to driver and used Google Distance matrix API</li><li>Implementing smooth animation of driver location movement in real-time</li><li>Payment gateway integration with Bank SDK</li>
+    skills : Java, Firebase, Retrofit, Lottie, Socket.IO, Firebase Cloud Messaging, Crashlytics, Google Maps
 
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url :  # Full URL
-    image : koreaSunset.jpg # path: assets/project/
-    date : 2019.06.09 - 444
-    title : Ivan project
-    summary : This is Dummy
-    description :  
+    image : #koreaSunset.jpg # path: assets/project/
+    date : #2019.06.09 - 444
+    title : Taxiya Driver
+    summary : Taxi driver app to handle hail rides using Socket.IO
+    description :  <li>Taxi hailing driver app which is used to complete the process of Taxiya passenger.</li><li>Firebase real-time database used to show real-time location in passenger application</li><li>Offline support in low bandwidth area to by synced later with Realm Database</li>
+    skills : Firebase, Socket IO, Java, Realm, Firebase Cloud Messaging, Crashlytics, Google Maps
+
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url :  https://play.google.com/store/apps/details?id=com.codematrix.sns.Talk # Full URL
+    image : #koreaSunset.jpg # path: assets/project/
+    date : #2019.06.09 - 444
+    title : Talk
+    summary : Random video chat application for dating with Socket.IO and WebRTC
+    description : <li>A video calling app which users WebRTC client for connection.</li><li>Implemented Google In-App Purchase</li><li>Given support to setup and maintain Azure server to implement Socket.IO connections</li><li>Publishing and maintain updates in Play Store</li>
+    skills : Firebase Phone Auth, Socket IO, Java, WebRTC, Firebase Cloud Messaging, Crashlytics
+
+
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url :  https://play.google.com/store/apps/details?id=com.codematrix.sns.Talk # Full URL
+    image : #koreaSunset.jpg # path: assets/project/
+    date : #2019.06.09 - 444
+    title : MediReps
+    summary : Medical inventory system
+    description : <li>Medical drug sale POS system which can manage items, stock, customers, generate invoice</li><li>Print receipt with Bluetooth printer.</li><li>Implemented Native Android application with Java</li><li>PHP CodeIgniter web services implementation</li>
+    skills : Java, PHP
+
+
+
+    
