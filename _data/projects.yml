@@ -35,13 +35,13 @@
     date : #2019.06.09 - Developing
     title : InEight Document
     summary : InEight's document management software features an intuitive search interface, spanning all the project information to connect the entire team.
-    description :  <li>Implementing modules for the application according to the business reequipments with Kotlin </li>
-                  <li>Write maintainable code with team collaboration</li>
-                  <li>Offline mode support with SQLite database with sync feature when network is available</li>
-                  <li>Foxit PDF SDK modification as per the business requirement</li>
-                  <li>Research and implementation of encrypt/ decrypt of Foxit SDK key for support Android/iOS</li>
-                  <li>Developer testing after implementing module</li>
-                  <li>Writing test cases for Business requirement</li>
+    description : <li>Implement application modules according to business requirements using Kotlin, ensuring that they meet quality standards and contribute to the success of the project.</li>
+                  <li>Collaborate with team members to write maintainable code and ensure that all code adheres to project guidelines and best practices.</li>
+                  <li>Develop support for offline mode with SQLite database, leveraging sync features to ensure that data is up-to-date when network connectivity is available.</li>
+                  <li>Customize the Foxit PDF SDK to match business requirements, leveraging expertise in SDK customization and PDF viewer functionality.</li>
+                  <li>Research and implement encryption/decryption of Foxit SDK key to support Android/iOS, ensuring that sensitive data is secure and protected.</li>
+                  <li>Perform developer testing after implementing each module, ensuring that all code is functional and meets quality standards.</li>
+                  <li>Develop test cases for business requirements, leveraging expertise in testing methodologies and best practices to ensure optimal testing coverage.</li>
     skills : MVVM, Material Design, Kotlin, Navigation graph
     icon : assets/project_icons/ineight.webp
 
@@ -53,7 +53,11 @@
     date : #2019.06.09 - 1111
     title : TeamBinder Mobile
     summary : TeamBinder is a web-based information management system that helps you manage all your project documents, mail document processing and approval processes via a single repository of information saved on the internet
-    description :  <li>Worked on enhancing features</li><li>Bug fixes in existing version</li> <li>Enhanced app performance, code review and Security enhancement.</li>
+    description : <li>Work on enhancing features of the application to improve its functionality and user experience.</li>
+                  <li>Fix bugs in existing versions of the application, ensuring that all issues are identified and resolved in a timely manner.</li>
+                  <li>Improve app performance by identifying and addressing issues related to speed, efficiency, and responsiveness.</li>
+                  <li>Conduct code reviews to identify areas for improvement and ensure that all code adheres to project guidelines and best practices.</li>
+                  <li>Implement security enhancements to ensure that the application is secure and protected against potential threats and vulnerabilities.</li>
     skills : Java
     icon : assets/project_icons/teambinder.webp
 
@@ -65,7 +69,8 @@
     date : #2019.06.09 - 444
     title : PC Guide
     summary : pcguidelk App provides you the latest tech news helping you stay up to date! pcguidelk App Also provides you a central location to get Best deals and Offers in Computers and Accessories, Promote your products as a shop, and also a Trusted place to Buy and Sell Used Computers, Laptops, Components Smart Phones with its own market place
-    description : <li>Tech news fetched from www.pcguide.lk WordPress website</li><li>Implemented Classified and shop</li>
+    description : <li>Fetch tech news from the www.pcguide.lk WordPress website and integrate it into the application.</li>
+                  <li>Implement classified and shop functionality within the application, allowing users to browse and purchase products and services.</li>
     skills : Java, PHP rest API, Retrofit, Wordpress, Crashlytics
     icon : assets/project_icons/pcguide.webp
 
@@ -77,7 +82,8 @@
     date : #2019.06.09 - 444
     title : BC Click
     summary : Leading local public transportation company Go-Ahead Singapore was searching for solutions to speed up its digital transition and increase productivity. The business opted to automate these operations by creating a specialised mobile application to meet its specific requirements after seeing the necessity to replace the antiquated paper-based procedures.
-    description : <li>Modified E-Leave module as per the requirements such as applying leave, view applied leave,available leave balances, leave types</li><li>Bugs & change requests in E-Leave Module</li>
+    description : <li>Modify the E-Leave module of the application according to specific requirements, such as implementing leave application, leave balance view, and leave type management.</li>
+                  <li>Identify and fix any bugs or issues related to the E-Leave module, and handle any change requests as needed.</li>
     skills : Kotlin, Java
     icon : assets/project_icons/bcclick.png
 
@@ -89,7 +95,8 @@
     date : #2019.06.09 - 444
     title : Hubba Flow
     summary : Workforce application for engineers and technicans
-    description : <li>Task management application with sub tasks update, assigning the next task to relevant person, uploading images for the task</li><li>Implementing push notification using firebase</li>
+    description : <li>Task management application with sub tasks update, assigning the next task to relevant person, uploading images for the task</li>
+    <li>Implementing push notification using firebase</li>
     skills : Flutter, Firebase, Firestore
     icon : assets/project_icons/hubbaflow.png
 
