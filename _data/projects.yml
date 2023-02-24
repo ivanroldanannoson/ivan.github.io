@@ -36,7 +36,8 @@
     title : InEight Document
     summary : InEight's document management software features an intuitive search interface, spanning all the project information to connect the entire team.
     description :  <li>Implementing modules for the application according to the business reequipments with Kotlin </li><li>Write maintainable code with team collaboration</li><li>Offline mode support with SQLite database with sync feature when network is available</li><li>Foxit PDF SDK modification as per the business requirement</li><li>Research and implementation of encrypt/ decrypt of Foxit SDK key for support Android/iOS</li><li>Developer testing after implementing module</li><li>Writing test cases for Business requirement</li>
-
+    skills : MVVM, Material Design, Kotlin, Navigation graph
+    
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
