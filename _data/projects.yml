@@ -35,7 +35,13 @@
     date : #2019.06.09 - Developing
     title : InEight Document
     summary : InEight's document management software features an intuitive search interface, spanning all the project information to connect the entire team.
-    description :  <li>Implementing modules for the application according to the business reequipments with Kotlin </li><li>Write maintainable code with team collaboration</li><li>Offline mode support with SQLite database with sync feature when network is available</li><li>Foxit PDF SDK modification as per the business requirement</li><li>Research and implementation of encrypt/ decrypt of Foxit SDK key for support Android/iOS</li><li>Developer testing after implementing module</li><li>Writing test cases for Business requirement</li>
+    description :  <li>Implementing modules for the application according to the business reequipments with Kotlin </li>
+                  <li>Write maintainable code with team collaboration</li>
+                  <li>Offline mode support with SQLite database with sync feature when network is available</li>
+                  <li>Foxit PDF SDK modification as per the business requirement</li>
+                  <li>Research and implementation of encrypt/ decrypt of Foxit SDK key for support Android/iOS</li>
+                  <li>Developer testing after implementing module</li>
+                  <li>Writing test cases for Business requirement</li>
     skills : MVVM, Material Design, Kotlin, Navigation graph
     icon : assets/project_icons/ineight.webp
 
