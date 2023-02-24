@@ -18,7 +18,9 @@
               <div class="title">{{ project.title }}</div>
             </div> -->
             <div class="title-wrap" style="display: flex; align-items: flex-start;">
+              {% if project.icon %}
               <img src="{{ project.icon }}" style="width: 50px; height: 50px; object-fit: cover; margin-right: 20px;">
+              {% endif %}
               <div style="display: flex; flex-direction: column;">
                 <p class="date">{{ project.date }}</p>
                 <div class="title">{{ project.title }}</div>

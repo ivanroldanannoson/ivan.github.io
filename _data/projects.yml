@@ -61,6 +61,7 @@
     summary : pcguidelk App provides you the latest tech news helping you stay up to date! pcguidelk App Also provides you a central location to get Best deals and Offers in Computers and Accessories, Promote your products as a shop, and also a Trusted place to Buy and Sell Used Computers, Laptops, Components Smart Phones with its own market place
     description : <li>Tech news fetched from www.pcguide.lk WordPress website</li><li>Implemented Classified and shop</li>
     skills : Java, PHP rest API, Retrofit, Wordpress, Crashlytics
+    icon : assets/project_icons/pcguide.webp
 
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
@@ -72,6 +73,7 @@
     summary : Leading local public transportation company Go-Ahead Singapore was searching for solutions to speed up its digital transition and increase productivity. The business opted to automate these operations by creating a specialised mobile application to meet its specific requirements after seeing the necessity to replace the antiquated paper-based procedures.
     description : <li>Modified E-Leave module as per the requirements such as applying leave, view applied leave,available leave balances, leave types</li><li>Bugs & change requests in E-Leave Module</li>
     skills : Kotlin, Java
+    icon : assets/project_icons/bcclick.png
 
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
@@ -83,6 +85,7 @@
     summary : Workforce application for engineers and technicans
     description : <li>Task management application with sub tasks update, assigning the next task to relevant person, uploading images for the task</li><li>Implementing push notification using firebase</li>
     skills : Flutter, Firebase, Firestore
+    icon : assets/project_icons/hubbaflow.png
 
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
@@ -120,6 +123,7 @@
     summary : Taxi hailing passenger app which a passenger may request a ride using android device. The real-time database update used is firebase
     description :  <li>Implementing ride booking feature</li><li>Firebase real time database used to show drivers real time location</li><li>Real time peer to peer connection with driver status using Socket.IO</li><li>Route draw on Google maps from passenger to driver and used Google Distance matrix API</li><li>Implementing smooth animation of driver location movement in real-time</li><li>Payment gateway integration with Bank SDK</li>
     skills : Java, Firebase, Retrofit, Lottie, Socket.IO, Firebase Cloud Messaging, Crashlytics, Google Maps
+    icon : assets/project_icons/taxiya.png
 
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
@@ -131,6 +135,7 @@
     summary : Taxi driver app to handle hail rides using Socket.IO
     description :  <li>Taxi hailing driver app which is used to complete the process of Taxiya passenger.</li><li>Firebase real-time database used to show real-time location in passenger application</li><li>Offline support in low bandwidth area to by synced later with Realm Database</li>
     skills : Firebase, Socket IO, Java, Realm, Firebase Cloud Messaging, Crashlytics, Google Maps
+    icon : assets/project_icons/taxiya_driver.png
 
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
@@ -142,6 +147,7 @@
     summary : Random video chat application for dating with Socket.IO and WebRTC
     description : <li>A video calling app which users WebRTC client for connection.</li><li>Implemented Google In-App Purchase</li><li>Given support to setup and maintain Azure server to implement Socket.IO connections</li><li>Publishing and maintain updates in Play Store</li>
     skills : Firebase Phone Auth, Socket IO, Java, WebRTC, Firebase Cloud Messaging, Crashlytics
+    icon : assets/project_icons/talk.webp
 
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
@@ -175,3 +181,4 @@
     summary : This app will provide you the with ease of searching for travel destinations on the popularity. Search your destination, know where your traveling to with some knowledge on history.
     description : <li>Developed android application for location nearby places</li><li>Implemented Exchange rates, weather with third party API</li><li>Implemented AWS EC2 instance to host web services and dashboard</li>
     skills : Java, Firebase Cloud Messaging, PHP rest API, Retrofit
+    icon : assets/project_icons/travelyns.png
