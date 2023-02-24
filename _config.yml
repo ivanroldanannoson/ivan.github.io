@@ -16,8 +16,7 @@ theme_settings :
       - start : 2022-Jun
         end : Present
         experience : Starhub Ltd. Singapore, Software Engineer
-        responsibilites : 
-          <li>Response 1 </li>
+        responsibilites : <li>Response 1 </li>
           <li>Response 2 </li>
           <li>Response 3 </li>
       - start : 2020-Jan
