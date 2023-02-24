@@ -55,7 +55,7 @@ theme_settings :
       - skill : Flutter
         value : 60  # Percent value
       - skill : Corotine
-        value : 60  # Percent value
+        value : 755  # Percent value
       - skill : AWS
         value : 55  # Percent value
       - skill : Android studio
