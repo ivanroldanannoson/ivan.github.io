@@ -18,38 +18,37 @@ theme_settings :
       - start : 2022-Jun
         end : Present
         experience : Starhub Ltd. Singapore, Software Engineer
-        responsibilites : <li>Develop and maintain multiple ongoing mobile projects using Kotlin, Flutter, and Java, ensuring that they meet project requirements and quality standards.</li>
-          <li>Collaborate with cross-functional teams to align on project goals and timelines, and adapt to changes and client feedback to continuously improve project outcomes.</li>
-          <li>Design and develop a Flutter web dashboard, leveraging expertise in web design principles and Flutter best practices.</li>
-          <li>Utilize Strapi to develop and customize backend APIs, ensuring seamless integration with the mobile applications and meeting project-specific requirements.</li>
+        responsibilites : <li>Work on multiple existing ongoing mobile projects according to the requirements with Kotlin, Flutter, Java </li>
+          <li>Working with the team to sync up with new projects, demonstrations, client changes to make the project better </li>
+          <li>Working on Flutter web designing dashboard</li>
+          <li>Strapi to develop backend API and making custom integration</li>
       - start : 2020-Jan
         end : 2022-May
         experience : InEight Sri Lanka, Software Engineer
-        responsibilites :  <li>Develop, test, and implement application features using Kotlin, ensuring that they meet business requirements and quality standards.</li>
-          <li>Collaborate with experienced team members to conduct root cause analysis of issues, review new and existing code, and continuously improve code quality.</li>
-          <li>Work closely with core technology teams and other platform teams to balance cross-platform consistency with Android optimization, ensuring that the application performs optimally on Android devices.</li>
-          <li>Customize the Foxit PDF viewer SDK to match business requirements, leveraging expertise in SDK customization and PDF viewer functionality.</li>
-          <li>Design screens that are supported on both phone and tablet devices, using design best practices and responsive design principles.</li>
-          <li>Maintain code standards and review the code of team members, ensuring that all code adheres to project guidelines and best practices.</li>
+        responsibilites :  <li>Develop, test, and implement application features according to business requirement with Kotlin </li>
+          <li>Work with experienced team members to conduct root cause analysis of issues, review new and existing code </li>
+          <li>Worked closely with core technology teams and other platform teams to balance cross-platform consistency with Android-optimization</li>
+          <li>Modifying Foxit PDF viewer SDK to match the business requirement</li>
+          <li>Designing screens to be supported in Phone and Tablet devices</li>
+          <li>Maintaining code standards and reviewing code of team members</li>
       - start : 2019-Aug
         end : 2020-Jan
         experience : Auxenta (PVT) Ltd., Software Engineer
-        responsibilites :  <li>Modify an existing taxi-hailing application to develop a corporate company transportation solution, leveraging expertise in mobile application development and corporate transportation solutions.</li>
-          <li>Utilize RxJava, Open Street map SDK, and notifications to develop the necessary functionality for the corporate transportation solution, ensuring optimal performance and usability.</li>
-          <li>Implement real-time communication between two applications, Driver and Passenger, using Web Sockets, to provide a seamless user experience and optimize communication between the two parties.</li>
+        responsibilites :  <li>Modifying existing taxi hailing application for a corporate company transportation solution</li>
+          <li>Worked with RxJava, Open Street map SDK and notifications</li>
+          <li>Communicating between two applications (Driver – Passenger) Realtime with Web Sockets.</li>
       - start : 2017-Sep
         end : 2019-Jul
         experience : Capital Trust Securities (Acquired Airport Travels Holdings (Pvt) Ltd.), Software Engineer
-        responsibilites :  <li>Develop and manage both the Passenger and Driver applications for a taxi-hailing platform, leveraging expertise in mobile application development and project management.</li>
-          <li>Utilize Java, Rest API, Socket.io, Firebase database, and Firebase notification technologies to develop the necessary functionality for the taxi-hailing platform, ensuring optimal performance and usability.</li>
-          <li>Implement a solution to match nearby drivers with passengers, leveraging real-time updates in the Firebase database, to optimize the efficiency of the taxi-hailing process.</li>
-          <li>Develop animation of moving vehicles on the map, utilizing real-time updates in the Firebase database, to enhance the user experience and provide real-time information about the status of the taxi ride.</li>
+        responsibilites :  <li>Passenger and Driver taxi hailing application development, managing</li>
+          <li>Java, Rest API, Socket.io, Firebase database, Firebase notification technologies were used.</li>
+          <li>Finding solution to match nearby drivers, animation of moving vehicles with real-time updates in firebase database.</li>
       - start : 2017-Apr
         end : 2017-Aug
         experience : Airport Travels Holdings (Pvt) Ltd, Associate Software Engineer
-        responsibilites :  <li>Design the UI for both the Passenger and Driver applications of a mobile platform, ensuring that it aligns with the business plan and meets usability and design best practices.</li>
-          <li>Implement basic functionality for both the Passenger and Driver applications, leveraging expertise in mobile application development and best practices.</li>
-          <li>Develop cross-platform communication between the Android and iOS applications for the Passenger application, utilizing Socket.IO technology to optimize communication and provide a seamless user experience.</li>
+        responsibilites :  <li>Designing UI according to the business plan of Passenger and Driver application</li>
+          <li>Implementing basic functionality of both applications</li>
+          <li>Implementing cross platform communication with iOS application Passenger application through the Socket.IO technology</li>
     skills : 
       - skill : Koltin
         value : 85  # Percent value
