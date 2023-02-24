@@ -18,19 +18,19 @@ theme_settings :
       - start : 2022-Jun
         end : Present
         experience : Starhub Ltd. Singapore, Software Engineer
-        responsibilites : <li>Work on multiple existing ongoing mobile projects according to the requirements with Kotlin, Flutter, Java </li>
-          <li>Working with the team to sync up with new projects, demonstrations, client changes to make the project better </li>
-          <li>Working on Flutter web designing dashboard</li>
-          <li>Strapi to develop backend API and making custom integration</li>
+        responsibilites : <li>Develop and maintain multiple ongoing mobile projects using Kotlin, Flutter, and Java, ensuring that they meet project requirements and quality standards.</li>
+          <li>Collaborate with cross-functional teams to align on project goals and timelines, and adapt to changes and client feedback to continuously improve project outcomes.</li>
+          <li>Design and develop a Flutter web dashboard, leveraging expertise in web design principles and Flutter best practices.</li>
+          <li>Utilize Strapi to develop and customize backend APIs, ensuring seamless integration with the mobile applications and meeting project-specific requirements.</li>
       - start : 2020-Jan
         end : 2022-May
         experience : InEight Sri Lanka, Software Engineer
-        responsibilites :  <li>Develop, test, and implement application features according to business requirement with Kotlin </li>
-          <li>Work with experienced team members to conduct root cause analysis of issues, review new and existing code </li>
-          <li>Worked closely with core technology teams and other platform teams to balance cross-platform consistency with Android-optimization</li>
-          <li>Modifying Foxit PDF viewer SDK to match the business requirement</li>
-          <li>Designing screens to be supported in Phone and Tablet devices</li>
-          <li>Maintaining code standards and reviewing code of team members</li>
+        responsibilites :  <li>Develop, test, and implement application features using Kotlin, ensuring that they meet business requirements and quality standards.</li>
+          <li>Collaborate with experienced team members to conduct root cause analysis of issues, review new and existing code, and continuously improve code quality.</li>
+          <li>Work closely with core technology teams and other platform teams to balance cross-platform consistency with Android optimization, ensuring that the application performs optimally on Android devices.</li>
+          <li>Customize the Foxit PDF viewer SDK to match business requirements, leveraging expertise in SDK customization and PDF viewer functionality.</li>
+          <li>Design screens that are supported on both phone and tablet devices, using design best practices and responsive design principles.</li>
+          <li>Maintain code standards and review the code of team members, ensuring that all code adheres to project guidelines and best practices.</li>
       - start : 2019-Aug
         end : 2020-Jan
         experience : Auxenta (PVT) Ltd., Software Engineer
