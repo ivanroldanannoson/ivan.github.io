@@ -16,9 +16,10 @@ theme_settings :
       - start : 2022-Jun
         end : Present
         experience : Starhub Ltd. Singapore, Software Engineer
-        responsibilites : <li>Response 1 </li>
-          <li>Response 2 </li>
-          <li>Response 3 </li>
+        responsibilites : <li>• Work on multiple existing ongoing mobile projects according to the requirements with Kotlin, Flutter, Java </li>
+          <li>• Working with the team to sync up with new projects, demonstrations, client changes to make the project better </li>
+          <li>• Working on Flutter web designing dashboard</li>
+          <li>• Strapi to develop backend API and making custom integration</li>
       - start : 2020-Jan
         end : 2022-May
         experience : InEight Sri Lanka, Software Engineer
