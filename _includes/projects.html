@@ -25,12 +25,13 @@
                 <p class="date">{{ project.date }}</p>
                 <div class="title">{{ project.title }}</div>
                 <div class="meta">
-                  {% if project.skills %}
+                  <span>{{ project.skills }}</span>
+                  <!-- {% if project.skills %}
                   &middot;
                   {% for skill in project.skills %}
-                  <span>#{{ skill }}</span>
+                  <span>{{ skill }}</span>
                   {% endfor %}
-                  {% endif %}
+                  {% endif %} -->
                 </div>
               </div>
             </div>
