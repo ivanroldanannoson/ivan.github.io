@@ -19,6 +19,10 @@ theme_settings :
     skills : 
       - skill : HTML5 & CSS
         value : 85  # Percent value
+    education :
+      - degree : BSC
+        college : ICBT
+    
         
   # Icons
   icons :
