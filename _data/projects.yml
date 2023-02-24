@@ -1,51 +1,59 @@
-- project :
-    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url : https://ivanroldanannoson.github.io # Full URL
-    image : "portfolio.png" # path: assets/project/
-    date : 2019.06.09 - Developing
-    title : Grape-Theme
-    summary : A awesome jekyll theme!
-    description : This project is my first jekyll theme. and everyone can customize this easily.  
-    contents :
-        - title : 1. 블로그 첫 화면 구성
-          image : home.png
-          description : <li>Responsive Layout</li>
-            <li>User Profile</li> 
-            <li>Tags</li> 
-            <li>Projects</li> 
-            <li>Pagination</li>
-        - title : 2. 태그 페이지
-          image : tags.png
-          description : <li>Responsive Layout</li> 
-            <li>Tags</li> 
-        - title : 3. 남은 개발 과제
-          image :
-          description : <li>project 부분 디자인 변경</li>
-            <li>favicon.ico, search 기능</li>
-            <li>OG Tag 추가</li>
-            <li>profile 이미지 효과</li>
-            <li>gem 배포</li> 
+# - project :
+#     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+#     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
+#     url : https://ivanroldanannoson.github.io # Full URL
+#     image : "portfolio.png" # path: assets/project/
+#     date : 2019.06.09 - Developing
+#     title : Grape-Theme
+#     summary : A awesome jekyll theme!
+#     description : This project is my first jekyll theme. and everyone can customize this easily.  
+#     contents :
+#         - title : 1. 블로그 첫 화면 구성
+#           image : home.png
+#           description : <li>Responsive Layout</li>
+#             <li>User Profile</li> 
+#             <li>Tags</li> 
+#             <li>Projects</li> 
+#             <li>Pagination</li>
+#         - title : 2. 태그 페이지
+#           image : tags.png
+#           description : <li>Responsive Layout</li> 
+#             <li>Tags</li> 
+#         - title : 3. 남은 개발 과제
+#           image :
+#           description : <li>project 부분 디자인 변경</li>
+#             <li>favicon.ico, search 기능</li>
+#             <li>OG Tag 추가</li>
+#             <li>profile 이미지 효과</li>
+#             <li>gem 배포</li> 
 
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url :  # Full URL
+    url :  https://play.google.com/store/apps/details?id=com.ineight.document# Full URL
     image : # path: assets/project/
-    date : 2019.06.09 - Developing
-    title : Dummy project
-    summary : This is Dummy
-    description :  
+    date : #2019.06.09 - Developing
+    title : InEight Document
+    summary : InEight's document management software features an intuitive search interface, spanning all the project information to connect the entire team.
+    description :  <li>Implementing modules for the application according to the business reequipments with Kotlin </li>
+<li>Write maintainable code with team collaboration</li>
+<li>Offline mode support with SQLite database with sync feature when network is available</li>
+<li>Foxit PDF SDK modification as per the business requirement</li>
+<li>Research and implementation of encrypt/ decrypt of Foxit SDK key for support Android/iOS</li>
+<li>Developer testing after implementing module</li>
+<li>Writing test cases for Business requirement</li>
 
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url :  # Full URL
-    image : koreaSunset.jpg # path: assets/project/
-    date : 2019.06.09 - 1111
-    title : Ivan project
-    summary : This is Dummy
-    description :  
+    image : #koreaSunset.jpg # path: assets/project/
+    date : #2019.06.09 - 1111
+    title : TeamBinder Mobile
+    summary : TeamBinder is a web-based information management system that helps you manage all your project documents, mail document processing and approval processes via a single repository of information saved on the internet
+    description :  <li>Worked on enhancing features</li>
+<li>Bug fixes in existing version</li>
+<li>Enhanced app performance, code review and Security enhancement.</li>
 
 
 - project :
