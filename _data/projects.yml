@@ -95,8 +95,8 @@
     date : #2019.06.09 - 444
     title : Hubba Flow
     summary : Workforce application for engineers and technicans
-    description : <li>Task management application with sub tasks update, assigning the next task to relevant person, uploading images for the task</li>
-    <li>Implementing push notification using firebase</li>
+    description : <li>Develop a task management application that includes the ability to create and update sub-tasks, assign tasks to team members, and upload images related to the task.</li>
+                  <li>Implement push notification functionality using Firebase to ensure timely updates and notifications for tasks.</li>
     skills : Flutter, Firebase, Firestore
     icon : assets/project_icons/hubbaflow.png
 
