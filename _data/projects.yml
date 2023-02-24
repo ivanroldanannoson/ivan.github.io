@@ -108,7 +108,8 @@
     date : #2019.06.09 - 444
     title : Kiosk for restaurant
     summary : Resturant KIOSK app for self ordering with kitchen display and cashier queue management
-    description : <li>Kiosk self-ordering for restaurant with choosing food, variant, add-one, card payment, receipt printing with QR code receipt in the concept of Go Green.</li><li>Implementing queue system with Socket.IO for status changing of the food preparation</li>
+    description : <li>Develop a kiosk self-ordering system for restaurants that allows customers to choose their food items, select variants, add additional items, make card payments, and print QR code receipts in line with the Go Green concept.</li>
+                  <li>Implement a queue system using Socket.IO for tracking the status of food preparation and updating customers on the status of their order.</li>
     skills : Flutter, Socket.IO
 
 - project :
@@ -119,15 +120,10 @@
     date : #2019.06.09 - 444
     title : Green Tech
     summary : Project with several modules related to IOT
-    description : <li>CCTV camera dashboard supporting multiple cameras, grid view, pagination, different grid sizes to support multiple cameras to view in same screen</li>
-                  <li>Advance filter</li>
-                  <ul>
-                    <li>Rearrange cameras</li>
-                    <li>Search by name, status, vendor, location</li>
-                  </ul>
-                  <li>CCTV recording preview with timeline</li>
-                  <li>Change password, Forgot password with email</li>
-                  
+    description : <li>Developed a CCTV camera dashboard with support for multiple cameras, grid view, pagination, and different grid sizes to view multiple cameras on the same screen</li>
+                  <li>Implemented an advanced filter for rearranging cameras and searching by name, status, vendor, and location</li>
+                  <li>Implemented CCTV recording preview with timeline feature</li>
+                  <li>Implemented change password and forgot password with email functionality</li>
     skills : Flutter WEB
 
 - project :
@@ -138,7 +134,12 @@
     date : #2019.06.09 - 3333
     title : Taxiya
     summary : Taxi hailing passenger app which a passenger may request a ride using android device. The real-time database update used is firebase
-    description :  <li>Implementing ride booking feature</li><li>Firebase real time database used to show drivers real time location</li><li>Real time peer to peer connection with driver status using Socket.IO</li><li>Route draw on Google maps from passenger to driver and used Google Distance matrix API</li><li>Implementing smooth animation of driver location movement in real-time</li><li>Payment gateway integration with Bank SDK</li>
+    description : <li>Implementing ride booking feature</li>
+                  <li>Using Firebase real time database to show drivers real time location</li>
+                  <li>Establishing real time peer to peer connection with driver status using Socket.IO</li>
+                  <li>Drawing route on Google maps from passenger to driver and using Google Distance matrix API</li>
+                  <li>Implementing smooth animation of driver location movement in real-time</li>
+                  <li>Integrating payment gateway with Bank SDK</li>
     skills : Java, Firebase, Retrofit, Lottie, Socket.IO, Firebase Cloud Messaging, Crashlytics, Google Maps
     icon : assets/project_icons/taxiya.png
 
@@ -150,7 +151,9 @@
     date : #2019.06.09 - 444
     title : Taxiya Driver
     summary : Taxi driver app to handle hail rides using Socket.IO
-    description :  <li>Taxi hailing driver app which is used to complete the process of Taxiya passenger.</li><li>Firebase real-time database used to show real-time location in passenger application</li><li>Offline support in low bandwidth area to by synced later with Realm Database</li>
+    description : <li>Developed Taxi hailing driver app which is used to complete the process of Taxiya passenger.</li>
+                  <li>Implemented Firebase real-time database to show real-time location in passenger application</li>
+                  <li>Provided offline support in low bandwidth area by syncing later with Realm Database</li>
     skills : Firebase, Socket IO, Java, Realm, Firebase Cloud Messaging, Crashlytics, Google Maps
     icon : assets/project_icons/taxiya_driver.png
 
@@ -162,7 +165,10 @@
     date : #2019.06.09 - 444
     title : Talk
     summary : Random video chat application for dating with Socket.IO and WebRTC
-    description : <li>A video calling app which users WebRTC client for connection.</li><li>Implemented Google In-App Purchase</li><li>Given support to setup and maintain Azure server to implement Socket.IO connections</li><li>Publishing and maintain updates in Play Store</li>
+    description : <li>A video calling app which users WebRTC client for connection.</li>
+                  <li>Implemented Google In-App Purchase</li>
+                  <li>Given support to setup and maintain Azure server to implement Socket.IO connections</li>
+                  <li>Publishing and maintain updates in Play Store</li>
     skills : Firebase Phone Auth, Socket IO, Java, WebRTC, Firebase Cloud Messaging, Crashlytics
     icon : assets/project_icons/talk.webp
 
@@ -174,7 +180,9 @@
     date : #2019.06.09 - 444
     title : MediReps
     summary : Medical inventory system
-    description : <li>Medical drug sale POS system which can manage items, stock, customers, generate invoice</li><li>Print receipt with Bluetooth printer.</li><li>Implemented Native Android application with Java</li><li>PHP CodeIgniter web services implementation</li>
+    description : <li>Medical drug sale POS system which can manage items, stock, customers, generate invoice</li>
+                  <li>Print receipt with Bluetooth printer.</li><li>Implemented Native Android application with Java</li>
+                  <li>PHP CodeIgniter web services implementation</li>
     skills : Java, PHP
 
 - project :
@@ -185,7 +193,9 @@
     date : #2019.06.09 - 444
     title : 5wasara
     summary : Sri Lanka primary school MCQ applicaiton
-    description : <li>Educational app which brings question papers to help 5th grade students. The app uses Firebase technology the user can use the app in offline mode.</li><li>The app is dynamically updated with Firebase Database.</li><li>Grades, Subject, Question, Answers can be modified real-time with Firebase database</li>
+    description : <li>Educational app which brings question papers to help 5th grade students. The app uses Firebase technology the user can use the app in offline mode.</li>
+                  <li>The app is dynamically updated with Firebase Database.</li>
+                  <li>Grades, Subject, Question, Answers can be modified real-time with Firebase database</li>
     skills : Java, Firebase Database
 
 - project :
@@ -196,6 +206,8 @@
     date : #2019.06.09 - 444
     title : Travelyns
     summary : This app will provide you the with ease of searching for travel destinations on the popularity. Search your destination, know where your traveling to with some knowledge on history.
-    description : <li>Developed android application for location nearby places</li><li>Implemented Exchange rates, weather with third party API</li><li>Implemented AWS EC2 instance to host web services and dashboard</li>
+    description : <li>Developed android application for location nearby places</li>
+                  <li>Implemented Exchange rates, weather with third party API</li>
+                  <li>Implemented AWS EC2 instance to host web services and dashboard</li>
     skills : Java, Firebase Cloud Messaging, PHP rest API, Retrofit
     icon : assets/project_icons/travelyns.webp
