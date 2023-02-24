@@ -4,14 +4,14 @@ url : "https://ivanroldanannoson.github.io"
 
 # Blog Settings
 theme_settings :
-  title : Grape Theme
+  title : Ivan Roldan Annoson
   favicon : assets/favicon.ico
 
   # Profile Settings
   profile :
     image : assets/img/smile.png
-    username : Nayeong Kim
-    description : creator of Grape-Theme! Grape-Theme is my first jekyll theme and you can customize this theme easily.
+    username : Ivan Roldan
+    description : I am experienced Android Engineer with 5+ years working with Java & Kotlin with latest technology stack. Along with that I have worked on PHP, AWS, Azure and contributed my best on implementing features on project with Research.
     experience :
       - start : 2017-05-03
         end : 2018-05-06
@@ -22,9 +22,9 @@ theme_settings :
         
   # Icons
   icons :
-    email:  # Full email address, e.g. "sample@google.com"
-    linkedin:  # Full URL 
-    github: naye0ng
+    email:  "ivanroldan@outlook.com" # Full email address, e.g. "sample@google.com"
+    linkedin:  https://www.linkedin.com/in/ivanroldan # Full URL 
+    github: ivanroldanannoson
     gitlab: 
     bitbucket: 
     google_plus:
