@@ -24,16 +24,17 @@
               <div style="display: flex; flex-direction: column;">
                 <p class="date">{{ project.date }}</p>
                 <div class="title">{{ project.title }}</div>
+                <div class="meta">
+                  {% if project.skills %}
+                  &middot;
+                  {% for skill in project.skills %}
+                  <span>#{{ skill }}</span>
+                  {% endfor %}
+                  {% endif %}
+                </div>
               </div>
             </div>
-            <div class="meta">
-              {% if project.skills %}
-              &middot;
-              {% for skill in project.skills %}
-              <span>#{{ skill }}</span>
-              {% endfor %}
-              {% endif %}
-            </div>
+            
             <div class="description">{{ project.summary }}</div>
           </div>
           <div class="icons">
