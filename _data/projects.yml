@@ -181,4 +181,4 @@
     summary : This app will provide you the with ease of searching for travel destinations on the popularity. Search your destination, know where your traveling to with some knowledge on history.
     description : <li>Developed android application for location nearby places</li><li>Implemented Exchange rates, weather with third party API</li><li>Implemented AWS EC2 instance to host web services and dashboard</li>
     skills : Java, Firebase Cloud Messaging, PHP rest API, Retrofit
-    icon : assets/project_icons/travelyns.png
+    icon : assets/project_icons/travelyns.webp

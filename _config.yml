@@ -48,10 +48,24 @@ theme_settings :
           <li>Implementing basic functionality of both applications</li>
           <li>Implementing cross platform communication with iOS application Passenger application through the Socket.IO technology</li>
     skills : 
-      - skill : HTML5 & CSS
+      - skill : Koltin
         value : 85  # Percent value
-      - skill : HTML5 & CSS
+      - skill : Java
+        value : 90  # Percent value
+      - skill : Flutter
+        value : 60  # Percent value
+      - skill : Corotine
+        value : 60  # Percent value
+      - skill : AWS
+        value : 55  # Percent value
+      - skill : Android studio
+        value : 95  # Percent value
+      - skill : Version control
         value : 85  # Percent value
+      - skill : Firebase
+        value : 90  # Percent value
+      - skill : Azure
+        value : 60  # Percent value
     education :
       - degree : Master of Science in Information Technology
         college : Cardiff Metropolitan University
