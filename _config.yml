@@ -18,17 +18,10 @@ theme_settings :
       - start : 2022-Jun
         end : Present
         experience : Starhub Ltd. Singapore, Software Engineer
-        responsibilites : <li>Develop and implement a strategy to provide compelling capabilities that help the business to succeed in the decided business goals. Interface with the clients, interpret their requirements, and translate them into software/application solutions.
-            </li><li>Steer the entire software lifecycle right from requirement gathering to market release.
-            </li><li>Achieve competitiveness by conducting market research and incorporate inputs in SLDC.
-            </li><li>Work on multiple existing ongoing mobile projects according to the requirements with Kotlin, Java, Flutter
-            </li><li>Interact and function with the team to sync up with new projects, demonstrations, and client changes to make the project better.
-            </li><li>Employ Software engineering principles and methodologies
-            </li><li>Dexterously work on Flutter web apps
-            </li><li>Develop backend API and making custom integration.
-            </li><li>Ensure software is in line with the client and business requirements.
-            </li><li>Held responsible for the solution's development lifecycle and managing complex projects with significant bottom-line impact.
-            </li><li>Plan and deliver features within the stipulated time. Deliver support to the team members for all software coding and designing functions
+        responsibilites : <li>Work on multiple existing ongoing mobile projects according to the requirements with Kotlin, Flutter, Java </li>
+          <li>Working with the team to sync up with new projects, demonstrations, client changes to make the project better </li>
+          <li>Working on Flutter web designing dashboard</li>
+          <li>Strapi to develop backend API and making custom integration</li>
       - start : 2020-Jan
         end : 2022-May
         experience : InEight Sri Lanka, Software Engineer
